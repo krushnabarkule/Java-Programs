@@ -17,15 +17,15 @@ public class Program_04 {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
         int a,b,sum1;
         System.out.println("Addition of two integer number :");
         System.out.print("Enter value for a : ");
-        a = sc.nextInt();
+        a = 5
 
         System.out.print("Enter value for b : ");
-        b = sc.nextInt();
+        b = 5;
 
         sum1 = addInt(a,b);
         System.out.println("Sum of 2 integer number is : " + sum1);
@@ -33,10 +33,10 @@ public class Program_04 {
         float x,y,sum2;
         System.out.println("Addition of two float number :");
         System.out.print("Enter value for x : ");
-        x = sc.nextFloat();
+        x = 2;
 
         System.out.print("Enter value for y : ");
-        y = sc.nextFloat();
+        y = 4;
 
         sum2 = addfloat(x,y);
         System.out.print("Sum of 2 integer number is : " + sum2);

@@ -10,8 +10,8 @@ public class Program_05 {
 
         System.out.println("Enter Values for a and b : ");
         int a,b;
-        a = Integer.parseInt(br.readLine());
-        b = Integer.parseInt(br.readLine());
+        a = 5;
+        b = 4;
 
         System.out.println("Sum of a and b is : "+ (a+b));
 
